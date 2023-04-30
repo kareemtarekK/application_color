@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#body{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+#btn1{
+    padding: 15px 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, .7);
+    border: solid 0px transparent;
+    box-shadow: 3px 3px 3px transparent;
+    cursor: pointer;
+    border-radius: 9px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: padding 1.5s ;
+}
+#btn1:hover{
+    padding: 10px 10px;
+}
+#p1{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.sec{
+    width: 30%;
+    height: 30vh;
+    border: solid 1.5px transparent;
+    box-shadow: 3px 3px 3px blue;
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 10px;
+    border-radius: 9px;
+}
+.sec #p2{
+        font-size: 35px;
+        color: rgba(0, 0, 0, 0.9);
+}
+.sec #btn2{
+    padding: 10px 30px;
+    color: white;
+        background-color: rgba(0, 0, 0, .7);
+        border: solid 0px transparent;
+        box-shadow: 3px 3px 3px transparent;
+        cursor: pointer;
+        border-radius: 9px;
+        position: relative;
+        top: 30%;
+        transition: background-color 1.5s;
+}
+.sec #btn2:hover{
+background-color:blue;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgba(0, 0, 0, .7);
+}
+    
